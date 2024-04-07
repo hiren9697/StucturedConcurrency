@@ -56,15 +56,39 @@
 		87C43F762BC26E5900644238 /* StructuredConcurrency */ = {
 			isa = PBXGroup;
 			children = (
-				87C43F772BC26E5900644238 /* AppDelegate.swift */,
-				87C43F792BC26E5900644238 /* SceneDelegate.swift */,
-				87C43F7B2BC26E5900644238 /* ViewController.swift */,
-				87C43F7D2BC26E5900644238 /* Main.storyboard */,
+				87C43F8D2BC272F300644238 /* Main */,
+				87C43F8C2BC272E000644238 /* ViewControllers */,
+				87C43F8B2BC272D500644238 /* View */,
 				87C43F802BC26E5A00644238 /* Assets.xcassets */,
-				87C43F822BC26E5A00644238 /* LaunchScreen.storyboard */,
 				87C43F852BC26E5A00644238 /* Info.plist */,
 			);
 			path = StructuredConcurrency;
+			sourceTree = "<group>";
+		};
+		87C43F8B2BC272D500644238 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				87C43F7D2BC26E5900644238 /* Main.storyboard */,
+				87C43F822BC26E5A00644238 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		87C43F8C2BC272E000644238 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				87C43F7B2BC26E5900644238 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		87C43F8D2BC272F300644238 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				87C43F772BC26E5900644238 /* AppDelegate.swift */,
+				87C43F792BC26E5900644238 /* SceneDelegate.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
