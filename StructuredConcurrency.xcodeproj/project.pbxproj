@@ -15,6 +15,12 @@
 		87C43F8F2BC2739A00644238 /* SimpleSyntaxVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C43F8E2BC2739A00644238 /* SimpleSyntaxVC.swift */; };
 		87C43F912BC273BA00644238 /* ParentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C43F902BC273BA00644238 /* ParentVC.swift */; };
 		87C43F942BC2783500644238 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C43F932BC2783500644238 /* Constants.swift */; };
+		87C43F962BC2877500644238 /* WrapperVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C43F952BC2877500644238 /* WrapperVC.swift */; };
+		87C43F982BC28B3D00644238 /* AsyncLetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C43F972BC28B3D00644238 /* AsyncLetVC.swift */; };
+		87C43F9A2BC2AE9200644238 /* TaskgroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C43F992BC2AE9200644238 /* TaskgroupVC.swift */; };
+		87C43F9D2BC2AEDA00644238 /* ImageTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C43F9C2BC2AEDA00644238 /* ImageTC.swift */; };
+		87C43F9F2BC2AF4A00644238 /* ImageTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87C43F9E2BC2AF4A00644238 /* ImageTC.xib */; };
+		87C43FA12BC2B4C900644238 /* Taskgroup2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C43FA02BC2B4C900644238 /* Taskgroup2VC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,12 @@
 		87C43F8E2BC2739A00644238 /* SimpleSyntaxVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSyntaxVC.swift; sourceTree = "<group>"; };
 		87C43F902BC273BA00644238 /* ParentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentVC.swift; sourceTree = "<group>"; };
 		87C43F932BC2783500644238 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		87C43F952BC2877500644238 /* WrapperVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapperVC.swift; sourceTree = "<group>"; };
+		87C43F972BC28B3D00644238 /* AsyncLetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetVC.swift; sourceTree = "<group>"; };
+		87C43F992BC2AE9200644238 /* TaskgroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskgroupVC.swift; sourceTree = "<group>"; };
+		87C43F9C2BC2AEDA00644238 /* ImageTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTC.swift; sourceTree = "<group>"; };
+		87C43F9E2BC2AF4A00644238 /* ImageTC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageTC.xib; sourceTree = "<group>"; };
+		87C43FA02BC2B4C900644238 /* Taskgroup2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taskgroup2VC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 		87C43F762BC26E5900644238 /* StructuredConcurrency */ = {
 			isa = PBXGroup;
 			children = (
+				87C43F9B2BC2AEBA00644238 /* Cell */,
 				87C43F8D2BC272F300644238 /* Main */,
 				87C43F8C2BC272E000644238 /* ViewControllers */,
 				87C43F8B2BC272D500644238 /* View */,
@@ -82,8 +95,12 @@
 		87C43F8C2BC272E000644238 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				87C43F8E2BC2739A00644238 /* SimpleSyntaxVC.swift */,
 				87C43F902BC273BA00644238 /* ParentVC.swift */,
+				87C43F8E2BC2739A00644238 /* SimpleSyntaxVC.swift */,
+				87C43F952BC2877500644238 /* WrapperVC.swift */,
+				87C43F972BC28B3D00644238 /* AsyncLetVC.swift */,
+				87C43F992BC2AE9200644238 /* TaskgroupVC.swift */,
+				87C43FA02BC2B4C900644238 /* Taskgroup2VC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -103,6 +120,15 @@
 				87C43F932BC2783500644238 /* Constants.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		87C43F9B2BC2AEBA00644238 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				87C43F9C2BC2AEDA00644238 /* ImageTC.swift */,
+				87C43F9E2BC2AF4A00644238 /* ImageTC.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +191,7 @@
 			files = (
 				87C43F842BC26E5A00644238 /* LaunchScreen.storyboard in Resources */,
 				87C43F812BC26E5A00644238 /* Assets.xcassets in Resources */,
+				87C43F9F2BC2AF4A00644238 /* ImageTC.xib in Resources */,
 				87C43F7F2BC26E5900644238 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,7 +205,12 @@
 			files = (
 				87C43F942BC2783500644238 /* Constants.swift in Sources */,
 				87C43F8F2BC2739A00644238 /* SimpleSyntaxVC.swift in Sources */,
+				87C43F962BC2877500644238 /* WrapperVC.swift in Sources */,
+				87C43F982BC28B3D00644238 /* AsyncLetVC.swift in Sources */,
+				87C43FA12BC2B4C900644238 /* Taskgroup2VC.swift in Sources */,
 				87C43F912BC273BA00644238 /* ParentVC.swift in Sources */,
+				87C43F9A2BC2AE9200644238 /* TaskgroupVC.swift in Sources */,
+				87C43F9D2BC2AEDA00644238 /* ImageTC.swift in Sources */,
 				87C43F782BC26E5900644238 /* AppDelegate.swift in Sources */,
 				87C43F7A2BC26E5900644238 /* SceneDelegate.swift in Sources */,
 			);
